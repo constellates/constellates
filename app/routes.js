@@ -1,0 +1,30 @@
+import React   from 'react';
+import App     from './components/App';
+import Menu    from './components/menu';
+import Contact from './components/contact';
+import About   from './components/about';
+import Project from './components/project';
+import {
+  Route,
+  DefaultRoute,
+  NotFoundRoute
+} from 'react-router';
+
+// needed routes
+// project /p/id
+
+class Default extends React.Component {
+	static willTransitionTo(transition) {
+		transition.redirect('about');
+	}
+}
+
+export default (
+	<Route name="menu" handler={App} path="/">
+		<Route name="contact" handler={Contact} />
+		<Route name="about"   handler={About}   />
+		<Route name="p" handler={Project} />
+		<DefaultRoute         handler={Menu}    />
+		<NotFoundRoute        handler={Menu}    />
+	</Route>
+);
