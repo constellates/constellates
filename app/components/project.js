@@ -22,7 +22,6 @@ export default class Project extends mixin(State) {
 		let params = this.getParams();
         let self = this;
         request.get('projects/' + params.projectId, function (res) {
-        	console.log(res);
             self.setState({project: res});
         });
     }
