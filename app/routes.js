@@ -23,7 +23,7 @@ export default (
 	<Route name="menu" handler={App} path="/">
 		<Route name="contact" handler={Contact} />
 		<Route name="about"   handler={About}   />
-		<Route name="p" handler={Project} />
+		<Route name="project" path="p/:projectId" handler={Project} />
 		<DefaultRoute         handler={Menu}    />
 		<NotFoundRoute        handler={Menu}    />
 	</Route>
