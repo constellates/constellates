@@ -25,20 +25,27 @@ export default class Menu extends React.Component {
     }
 
     render() {
+
         let projects = this.state.projects.map(function (project, index) {
+            let style = {backgroundImage: 'url(' + project.images[0].original + ')'};
             return (
                 <li key={index}>
-                    <Link to="project" params={{projectId: project.url}}>{project.title}</Link>
+                    <div className='project-tile'>
+                        <div className='dummy'></div>
+                        <Link to="project" params={{projectId: project.url}} className='content' style={style}>
+                            <div className="project-title">{project.title}</div>
+                        </Link>
+                    </div>
                 </li>
             );
         });
 
         return (
-            <nav id="nav-menu">
-                <div id="project-tile-container">
+            <nav>
+                <div className='project-tile-container'>
                     <ul>{projects}</ul>
                 </div>
-                <nav id="nav-footer">
+                <nav className="nav-bar">
                     <div>
                         <a href="about">about</a>
                     </div>
