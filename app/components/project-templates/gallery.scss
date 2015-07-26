@@ -1,13 +1,18 @@
 .gallery {
 	position: absolute;
 	top: 0px;
-	right: 0px;
-	left: 0px;
+	min-width: 100%;
 	bottom: 60px;
 
 	.image-wrap {
 		display: table-cell;
-		padding: 10px 5px 10px 5px;
+		padding: 10px 5px 0px 5px;
 		height: 100%;
+	}
+
+	.single-image-wrap {
+		padding: 10px 5px 0px 5px;
+		height: 100%;
+		text-align: center;
 	}
 }

@@ -15,15 +15,24 @@ export default class Gallery extends React.Component {
 
     render() {
     	let project = this.props.project;
-        let height = this.state.galleryHeight - 10;
+        let imageHeight = this.state.galleryHeight - 15;
 
-    	let images = project.images.map(function (image, index) {
-    		return (
-                <div className="image-wrap" key={index}>
-                    <img height={height} src={image.original} />
+        let images;
+        if (project.images.length > 1) {
+        	images = project.images.map(function (image, index) {
+        		return (
+                    <div className="image-wrap" key={index}>
+                        <img height={imageHeight} src={image.original} />
+                    </div>
+                );
+        	});
+        } else {
+            images = (
+                <div className="single-image-wrap">
+                    <img height={imageHeight} src={project.images[0].original} />
                 </div>
             );
-    	});
+        }
 
         return (
             <div className="gallery" ref="gallery">
