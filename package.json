@@ -4,6 +4,7 @@
   "description": "my React.js boilerplate",
   "scripts": {
     "watch": "watchify -d app/browser.js -o dist/bundle.js -v",
+    "dev": "npm run watch & npm run watch-css & npm run start",
     "build-js": "browserify -d app/browser.js > dist/bundle.js",
     "build-css": "node-sass app/scss/app.scss dist/app.css --output-style compressed",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
