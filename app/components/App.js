@@ -21,6 +21,8 @@ export default class App extends React.Component {
             path = path.replace(/-/g, ' ');
         const title = path ? path : 'constellates';
 
+        let menuClass = path ? 'menu-link' : 'menu-link disabled';
+
         return (
             <html lang="en">
                 <head>
@@ -36,7 +38,7 @@ export default class App extends React.Component {
                 <body>
                     <div id="app">
                         <RouteHandler />
-                        <Link to="menu" className='menu-link'></Link>
+                        <Link to="menu" className={menuClass}></Link>
                     </div>
                 </body>
                 <script src="bundle.js"></script>

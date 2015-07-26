@@ -8,7 +8,7 @@
     "build-js": "browserify -d app/browser.js > dist/bundle.js",
     "build-css": "node-sass app/scss/app.scss dist/app.css --output-style compressed",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "start": "babel-node app/server",
+    "start": "nodemon --exec babel-node app/server",
     "test": "jest",
     "lint": "eslint app",
     "doc": "esdoc -c esdoc.json",

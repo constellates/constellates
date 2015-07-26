@@ -57,8 +57,6 @@ body {
     text-overflow: ellipsis;
 }
 
-
-
 .menu-link {
     height: 30px;
     width: 30px;
@@ -69,4 +67,7 @@ body {
     background: #BEC8CF;
     border-radius: 15px;
     cursor: pointer;
+    transition: all .5s ease-in;
 }
+
+.menu-link.disabled {background: #EEE;}
