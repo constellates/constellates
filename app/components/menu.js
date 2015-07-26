@@ -31,9 +31,11 @@ export default class Menu extends React.Component {
             return (
                 <li key={index}>
                     <div className='project-tile'>
-                        <div className='dummy'></div>
+                        <div className='tile-space-holder'></div>
                         <Link to="project" params={{projectId: project.url}} className='content' style={style}>
-                            <div className="project-title">{project.title}</div>
+                            <div className="project-overlay">
+                                <div className="project-title">{project.title}</div>
+                            </div>
                         </Link>
                     </div>
                 </li>

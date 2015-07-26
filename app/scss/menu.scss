@@ -8,7 +8,9 @@
 		float: left;
 		position: relative;
 
-		.dummy {margin-top: 75%}
+		@media (max-width: 600px) {width: 100%;}
+
+		.tile-space-holder {margin-top: 75%}
 
 		.content {
 		    position: absolute;
@@ -20,7 +22,9 @@
 		    background-size: cover;
 		    background-position: center;
 
-			.project-title {
+
+
+			.project-overlay {
 				position: absolute;
 				top:0;
 				right: 0;
@@ -29,17 +33,27 @@
 				background: rgba(0, 0, 0, .6);
 				opacity: 0;
 				transition: opacity .25s ease-in-out;
-				font-family: Helvetica;
-				text-align: center;
-				font-weight: lighter;
-				font-size: 40px;
-				vertical-align: middle;
-				padding: 30%;
-				display: inline-block;
-				color: #BBB;
+
+				&:before {
+					content: '';
+					display: inline-block;
+					height: 100%;
+					vertical-align: middle;
+				}
+
+				.project-title {
+					text-align: center;
+					font-size: 40px;
+					vertical-align: middle;
+					display: inline-block;
+					color: #CCC;
+					width: 50%;
+					margin-left: 25%;
+					@media (max-width: 800px) { font-size: 30px;}
+				}
 			}
 
-			&:hover .project-title {opacity: 10;}
+			&:hover .project-overlay {opacity: 10;}
 		}
 	}
 }
