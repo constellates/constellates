@@ -1,0 +1,13 @@
+.gallery {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 60px;
+
+	.image-wrap {
+		display: table-cell;
+		padding: 10px 5px 10px 5px;
+		height: 100%;
+	}
+}

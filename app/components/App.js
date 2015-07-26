@@ -16,8 +16,10 @@ export default class App extends React.Component {
 // life cycle events ------------------------------------------------------
 
     render() {
-        const {path} = this.props;
-        const title = `${path}`;
+        let path = this.props.path.split('/');
+            path = path[path.length - 1];
+            path = path.replace(/-/g, ' ');
+        const title = path ? path : 'constellates';
 
         return (
             <html lang="en">
@@ -28,7 +30,8 @@ export default class App extends React.Component {
                     <meta httpEquiv="Cache-Control" content="no-cache" />
                     <meta httpEquiv="Pragma" content="no-cache" />
                     <meta charSet="utf8" />
-                    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+                    <link rel="icon" href="favicon.png" sizes="32x32" />
+                    <link rel="stylesheet" type="text/css" href="app.css" media="all" />
                 </head>
                 <body>
                     <div id="app">

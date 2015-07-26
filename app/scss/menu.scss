@@ -1,0 +1,49 @@
+.project-tile-container {
+	padding: 30px;
+	margin-bottom: 60px;
+
+	.project-tile {
+		display: block;
+		width: 50%;
+		float: left;
+		position: relative;
+
+		.dummy {margin-top: 75%}
+
+		.content {
+		    position: absolute;
+		    top: 30px;
+		    bottom: 30px;
+		    left: 30px;
+		    right: 30px;
+		    background: #DDD;
+		    background-size: cover;
+		    background-position: center;
+
+			.project-title {
+				position: absolute;
+				top:0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background: rgba(0, 0, 0, .6);
+				opacity: 0;
+				transition: opacity .25s ease-in-out;
+				font-family: Helvetica;
+				text-align: center;
+				font-weight: lighter;
+				font-size: 40px;
+				vertical-align: middle;
+				padding: 30%;
+				display: inline-block;
+				color: #BBB;
+			}
+
+			&:hover .project-title {opacity: 10;}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.project-tile {width: 100%;}
+}

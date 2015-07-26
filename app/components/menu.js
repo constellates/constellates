@@ -2,7 +2,7 @@
 
 import React   from 'react';
 import {Link}  from 'react-router';
-import request from '../libs/request';
+import api     from '../libs/api';
 
 // component setup ---------------------------------------------
 
@@ -17,10 +17,10 @@ export default class Menu extends React.Component {
 
 // life cycle events --------------------------------------------
 
-    componentDidMount () {
+    componentWillMount () {
         let self = this;
-        request.get('projects', function (res) {
-            self.setState({projects: res});
+        api.getProjects(function (projects) {
+            self.setState({projects: projects});
         });
     }
 
@@ -43,7 +43,7 @@ export default class Menu extends React.Component {
         return (
             <nav>
                 <div className='project-tile-container'>
-                    <ul>{projects}</ul>
+                    <ul className="clear-fix">{projects}</ul>
                 </div>
                 <nav className="nav-bar">
                     <div>

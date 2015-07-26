@@ -1,0 +1,72 @@
+@import 'resets.scss';
+@import 'utils.scss';
+@import 'menu.scss';
+@import '../components/project-templates/gallery.scss';
+
+
+body {
+	font-family: helvetica;
+	font-weight: lighter;
+}
+
+.nav-bar {
+	position: fixed;
+	bottom: 10px;
+	height: 50px;
+	width: 100%;
+	background: rgba(255,255,255,0.7);
+	padding-top: 10px;
+}
+
+.nav-bar div:first-child {
+  position: fixed;
+  right: 50%;
+  margin-right: 25px;
+}
+
+.nav-bar div:last-child {
+  position: fixed;
+  left: 50%;
+  margin-left: 25px;
+}
+
+.nav-bar div a {
+	margin: 0px 10px;
+	color: #888;
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+.project-description {
+    width: 100%;
+    color: #888;
+    height: 30px;
+    position: fixed;
+    bottom: 20px;
+    line-height: 30px;
+}
+
+.project-description div {
+    width: 50%;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.menu-link {
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -15px;
+    background: #BEC8CF;
+    border-radius: 15px;
+    cursor: pointer;
+}
