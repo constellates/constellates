@@ -11,8 +11,7 @@
     "start": "nodemon --exec babel-node app/server",
     "test": "jest",
     "lint": "eslint app",
-    "doc": "esdoc -c esdoc.json",
-    "postinstall": "npm run build-js && npm run doc"
+    "doc": "esdoc -c esdoc.json"
   },
   "repository": {
     "type": "git",

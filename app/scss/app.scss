@@ -71,3 +71,14 @@ body {
 }
 
 .menu-link.disabled {background: #EEE;}
+
+.about {
+    padding: 20px;
+    font-size: 40px;
+    color: #666;
+
+    a {
+        color: #666;
+        text-decoration: none;
+    }
+}
