@@ -1,6 +1,5 @@
 exports.projects = [
     {
-        "id": "5468518769eb23af35a0efe2",
         "modified": "2014-11-16T07:25:59.990Z",
         "url": "transduction-loop",
         "title": "transduction loop",
@@ -14,6 +13,22 @@ exports.projects = [
             }
         ],
         "vimeoId": "134375555"
+    },
+    {
+        "url": "linear-perspective",
+        "title": "linear perspective",
+        "template": "gallery",
+        "images": [
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/linear-perspective-evergreen-wall.jpg"
+            },
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/linear-perspective-apartment.jpg"
+            },
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/linear-perspective-paris-seine.jpg"
+            }
+        ]
     },
     {
         "id": "5468518769eb23af35a0efe2",
@@ -40,6 +55,9 @@ exports.projects = [
         "title": "floating",
         "template": "gallery",
         "images": [
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/BOY_AND_SWAN.jpg"
+            },
             {
                 "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1414290259530.jpg",
                 "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1414290259530.jpg",
@@ -95,7 +113,25 @@ exports.projects = [
                 "aspectRatio": "1.3761467889908257",
                 "order": 6,
                 "caption": ""
-            }
+            },
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/HOMELESS_STRUCTURE.jpg"
+            },
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/CLIFF_FACE.jpg"
+            },
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/INVENTOR.jpg"
+            },
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/SPINACH_PIE.jpg"
+            },
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/TREE_FIST.jpg"
+            },
+            {
+                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/TV_PILE.jpg"
+            },
         ]
     },
     {
