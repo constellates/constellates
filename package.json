@@ -3,15 +3,7 @@
   "version": "0.0.0",
   "description": "my React.js boilerplate",
   "scripts": {
-    "watch": "watchify -d app/browser.js -o dist/bundle.js -v",
-    "dev": "npm run watch & npm run watch-css & npm run start",
-    "build-js": "browserify -d app/browser.js > dist/bundle.js",
-    "build-css": "node-sass app/scss/app.scss dist/app.css --output-style compressed",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "start": "nodemon --exec babel-node app/server",
-    "test": "jest",
-    "lint": "eslint app",
-    "doc": "esdoc -c esdoc.json"
+    "start": "nodemon --exec babel-node app/server"
   },
   "repository": {
     "type": "git",
@@ -26,37 +18,33 @@
     "url": "https://github.com/constellates/constellates/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^3.1.18",
-    "babel-jest": "^4.0.0",
-    "node-sass": "^3.2.0",
-    "nodemon": "^1.3.8",
-    "watchify": "^3.2.2"
+    "babelify": "^6.1.2",
+    "browser-sync": "^2.9.11",
+    "browserify": "^10.2.4",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-babel": "^5.2.1",
+    "gulp-changed": "^1.3.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.1",
+    "node-sass": "^3.3.3",
+    "nodemon": "^1.7.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
   },
   "dependencies": {
     "babel": "^5.5.6",
-    "babelify": "^6.1.2",
-    "browserify": "^10.2.4",
-    "classnames": "^2.1.2",
     "es6-react-mixins": "^0.1.8",
     "express": "^4.12.4",
-    "flux": "^2.0.3",
-    "object-assign": "^3.0.0",
     "react": "^0.13.3",
     "react-router": "^0.13.3",
     "superagent": "^1.2.0"
-  },
-  "browserify": {
-    "transform": [
-      [
-        "babelify"
-      ]
-    ]
-  },
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "unmockedModulePathPatterns": [
-      "node_modules/react"
-    ]
   },
   "engines": {
     "node": "0.12.0"
