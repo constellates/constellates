@@ -1,10 +1,15 @@
+// dependencies -----------------------------------------
+
 import express from 'express';
-import React from 'react';
-import Router from 'react-router';
-import routes from './routes';
-import path from 'path';
+import React   from 'react';
+import Router  from 'react-router';
+import routes  from '../app/routes';
+import path    from 'path';
+
+// configure app ----------------------------------------
 
 const app = express();
+const port = process.env.PORT || 5000;
 
 app.use(express.static(path.resolve(__dirname, '..', 'dist')));
 app.get('/favicon.ico', (req, res) => res.send(''));
@@ -15,7 +20,8 @@ app.use((req, res) => {
 	});
 });
 
-const port = process.env.PORT || 5000;
+// serve ------------------------------------------------
+
 app.listen(port, () => {
 	console.log('listening...' + port);
 });
