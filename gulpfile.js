@@ -20,7 +20,7 @@
 
     var p = {
         jsMain:     './app/browser.js',
-        scss:       './app/scss/*.scss',
+        scss:       './app/**/**/*.scss',
         scssMain:   './app/scss/app.scss',
         assets:     './app/assets/*',
 

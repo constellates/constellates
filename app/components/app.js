@@ -32,8 +32,9 @@ export default class App extends React.Component {
                     <meta httpEquiv="Cache-Control" content="no-cache" />
                     <meta httpEquiv="Pragma" content="no-cache" />
                     <meta charSet="utf8" />
-                    <link rel="icon" href="assets/favicon.png" sizes="32x32" />
+                    <link rel="icon" href="favicon.png" sizes="32x32" />
                     <link rel="stylesheet" type="text/css" href="app.css" media="all" />
+                    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css' />
                 </head>
                 <body>
                     <div id="app">
