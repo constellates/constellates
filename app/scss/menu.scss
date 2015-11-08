@@ -26,11 +26,11 @@
 
 			.project-overlay {
 				position: absolute;
-				top:0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				background: rgba(0, 0, 0, .6);
+				top: 20px;
+				right: 20px;
+				bottom: 20px;
+				left: 20px;
+				background: $lightBlue;
 				opacity: 0;
 				transition: opacity .25s ease-in-out;
 
@@ -46,14 +46,14 @@
 					font-size: 40px;
 					vertical-align: middle;
 					display: inline-block;
-					color: #CCC;
+					color: #EEE;
 					width: 50%;
 					margin-left: 25%;
 					@media (max-width: 800px) { font-size: 30px;}
 				}
 			}
 
-			&:hover .project-overlay {opacity: 10;}
+			&:hover .project-overlay {opacity: .9;}
 		}
 	}
 }
