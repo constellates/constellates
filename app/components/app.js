@@ -24,26 +24,10 @@ export default class App extends React.Component {
         let menuClass = path ? 'menu-link' : 'menu-link disabled';
 
         return (
-            <html lang="en">
-                <head>
-                    <title>{title}</title>
-                    <base href="/"></base>
-                    <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <meta httpEquiv="Cache-Control" content="no-cache" />
-                    <meta httpEquiv="Pragma" content="no-cache" />
-                    <meta charSet="utf8" />
-                    <link rel="icon" href="favicon.png" sizes="32x32" />
-                    <link rel="stylesheet" type="text/css" href="app.css" media="all" />
-                    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css' />
-                </head>
-                <body>
-                    <div id="app">
-                        <RouteHandler />
-                        <Link to="menu" className={menuClass}></Link>
-                    </div>
-                </body>
-                <script src="bundle.js"></script>
-            </html>
+            <div>
+                <RouteHandler />
+                <Link to="menu" className={menuClass}></Link>
+            </div>
         );
     }
 }
