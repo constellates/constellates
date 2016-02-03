@@ -49,10 +49,10 @@ export default class Menu extends React.Component {
                 </div>
                 <nav className="nav-bar">
                     <div>
-                        <a href="about">about</a>
+                        <Link to="about">about</Link>
                     </div>
                     <div>
-                        <a href="contact">contact</a>
+                        <Link to="contact">contact</Link>
                     </div>
                 </nav>
             </nav>
