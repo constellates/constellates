@@ -1,27 +1,21 @@
 // dependencies -----------------------------------------------------------
 
 import React                from 'react';
-import {RouteHandler, Link} from 'react-router';
+import {RouteHandler, Link, State} from 'react-router';
 
 // component setup --------------------------------------------------------
 
-export default class App extends React.Component {
+let App = React.createClass({
 
-    static get propTypes() {
-        return {
-            path: React.PropTypes.string
-        };
-    }
+    mixins: [State],
 
 // life cycle events ------------------------------------------------------
 
     render() {
-        let path = this.props.path.split('/');
-            path = path[path.length - 1];
-            path = path.replace(/-/g, ' ');
-        const title = path ? path : 'constellates';
-
-        let menuClass = path ? 'menu-link' : 'menu-link disabled';
+        let path = this.getPath();
+        let title = path.split('/')[path.split('/').length - 1];
+        document.title = title ? title : 'constellates';
+        let menuClass = path != '/' ? 'menu-link' : 'menu-link disabled';
 
         return (
             <div>
@@ -30,4 +24,6 @@ export default class App extends React.Component {
             </div>
         );
     }
-}
+})
+
+export default App;
