@@ -6,7 +6,7 @@ exports.projects = [
         "template": "video",
         "images": [
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/transduction_loop.jpg",
+                "original": "dist/assets/images/transduction_loop.jpg",
                 "aspectRatio": "1.6",
                 "order": 0,
                 "caption": "undefined"
@@ -20,13 +20,13 @@ exports.projects = [
         "template": "gallery",
         "images": [
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/linear-perspective-evergreen-wall.jpg"
+                "original": "dist/assets/images/linear-perspective-evergreen-wall.jpg"
             },
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/linear-perspective-apartment.jpg"
+                "original": "dist/assets/images/linear-perspective-apartment.jpg"
             },
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/linear-perspective-paris-seine.jpg"
+                "original": "dist/assets/images/linear-perspective-paris-seine.jpg"
             }
         ]
     },
@@ -38,9 +38,9 @@ exports.projects = [
         "template": "video",
         "images": [
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1416122767506.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1416122767506.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1416122767506.jpg",
+                "thumb": "dist/assets/images/thumb_1416122767506.jpg",
+                "_root": "dist/assets/images/1416122767506.jpg",
+                "original": "dist/assets/images/original_1416122767506.jpg",
                 "aspectRatio": "1.6",
                 "order": 0,
                 "caption": "undefined"
@@ -56,81 +56,81 @@ exports.projects = [
         "template": "gallery",
         "images": [
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/BOY_AND_SWAN.jpg"
+                "original": "dist/assets/images/BOY_AND_SWAN.jpg"
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1414290259530.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1414290259530.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1414290259530.jpg",
+                "thumb": "dist/assets/images/thumb_1414290259530.jpg",
+                "_root": "dist/assets/images/1414290259530.jpg",
+                "original": "dist/assets/images/original_1414290259530.jpg",
                 "aspectRatio": "1.3029315960912051",
                 "order": 0,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1419140714620.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1419140714620.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1419140714620.jpg",
+                "thumb": "dist/assets/images/thumb_1419140714620.jpg",
+                "_root": "dist/assets/images/1419140714620.jpg",
+                "original": "dist/assets/images/original_1419140714620.jpg",
                 "aspectRatio": "1.3937282229965158",
                 "order": 1,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1419140714682.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1419140714682.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1419140714682.jpg",
+                "thumb": "dist/assets/images/thumb_1419140714682.jpg",
+                "_root": "dist/assets/images/1419140714682.jpg",
+                "original": "dist/assets/images/original_1419140714682.jpg",
                 "aspectRatio": "1.4388489208633093",
                 "order": 2,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1414291073384.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1414291073384.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1414291073384.jpg",
+                "thumb": "dist/assets/images/thumb_1414291073384.jpg",
+                "_root": "dist/assets/images/1414291073384.jpg",
+                "original": "dist/assets/images/original_1414291073384.jpg",
                 "aspectRatio": "1.3590033975084939",
                 "order": 3,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1414290713227.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1414290713227.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1414290713227.jpg",
+                "thumb": "dist/assets/images/thumb_1414290713227.jpg",
+                "_root": "dist/assets/images/1414290713227.jpg",
+                "original": "dist/assets/images/original_1414290713227.jpg",
                 "aspectRatio": "1.25",
                 "order": 4,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1414290897459.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1414290897459.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1414290897459.jpg",
+                "thumb": "dist/assets/images/thumb_1414290897459.jpg",
+                "_root": "dist/assets/images/1414290897459.jpg",
+                "original": "dist/assets/images/original_1414290897459.jpg",
                 "aspectRatio": "1.3559322033898304",
                 "order": 5,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1414290826428.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1414290826428.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1414290826428.jpg",
+                "thumb": "dist/assets/images/thumb_1414290826428.jpg",
+                "_root": "dist/assets/images/1414290826428.jpg",
+                "original": "dist/assets/images/original_1414290826428.jpg",
                 "aspectRatio": "1.3761467889908257",
                 "order": 6,
                 "caption": ""
             },
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/HOMELESS_STRUCTURE.jpg"
+                "original": "dist/assets/images/HOMELESS_STRUCTURE.jpg"
             },
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/CLIFF_FACE.jpg"
+                "original": "dist/assets/images/CLIFF_FACE.jpg"
             },
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/INVENTOR.jpg"
+                "original": "dist/assets/images/INVENTOR.jpg"
             },
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/SPINACH_PIE.jpg"
+                "original": "dist/assets/images/SPINACH_PIE.jpg"
             },
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/TREE_FIST.jpg"
+                "original": "dist/assets/images/TREE_FIST.jpg"
             },
             {
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/TV_PILE.jpg"
+                "original": "dist/assets/images/TV_PILE.jpg"
             },
         ]
     },
@@ -142,65 +142,65 @@ exports.projects = [
         "template": "gallery",
         "images": [
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1415683155742.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1415683155742.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1415683155742.jpg",
+                "thumb": "dist/assets/images/thumb_1415683155742.jpg",
+                "_root": "dist/assets/images/1415683155742.jpg",
+                "original": "dist/assets/images/original_1415683155742.jpg",
                 "aspectRatio": "1.25",
                 "order": 0,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1415590978812.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1415590978812.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1415590978812.jpg",
+                "thumb": "dist/assets/images/thumb_1415590978812.jpg",
+                "_root": "dist/assets/images/1415590978812.jpg",
+                "original": "dist/assets/images/original_1415590978812.jpg",
                 "aspectRatio": "1.25",
                 "order": 1,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1415593857972.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1415593857972.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1415593857972.jpg",
+                "thumb": "dist/assets/images/thumb_1415593857972.jpg",
+                "_root": "dist/assets/images/1415593857972.jpg",
+                "original": "dist/assets/images/original_1415593857972.jpg",
                 "aspectRatio": "0.7858333333333334",
                 "order": 2,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1415595094012.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1415595094012.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1415595094012.jpg",
+                "thumb": "dist/assets/images/thumb_1415595094012.jpg",
+                "_root": "dist/assets/images/1415595094012.jpg",
+                "original": "dist/assets/images/original_1415595094012.jpg",
                 "aspectRatio": "0.8",
                 "order": 3,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1415597071531.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1415597071531.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1415597071531.jpg",
+                "thumb": "dist/assets/images/thumb_1415597071531.jpg",
+                "_root": "dist/assets/images/1415597071531.jpg",
+                "original": "dist/assets/images/original_1415597071531.jpg",
                 "aspectRatio": "0.8",
                 "order": 4,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1415597488109.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1415597488109.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1415597488109.jpg",
+                "thumb": "dist/assets/images/thumb_1415597488109.jpg",
+                "_root": "dist/assets/images/1415597488109.jpg",
+                "original": "dist/assets/images/original_1415597488109.jpg",
                 "aspectRatio": "0.8",
                 "order": 5,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1416119345750.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1416119345750.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1416119345750.jpg",
+                "thumb": "dist/assets/images/thumb_1416119345750.jpg",
+                "_root": "dist/assets/images/1416119345750.jpg",
+                "original": "dist/assets/images/original_1416119345750.jpg",
                 "aspectRatio": "1.25",
                 "order": 6,
                 "caption": ""
             },
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1415684356536.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1415684356536.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1415684356536.jpg",
+                "thumb": "dist/assets/images/thumb_1415684356536.jpg",
+                "_root": "dist/assets/images/1415684356536.jpg",
+                "original": "dist/assets/images/original_1415684356536.jpg",
                 "aspectRatio": "1.25",
                 "order": 7,
                 "caption": ""
@@ -215,9 +215,9 @@ exports.projects = [
         "template": "gallery",
         "images": [
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1418881895593.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1418881895593.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1418881895593.jpg",
+                "thumb": "dist/assets/images/thumb_1418881895593.jpg",
+                "_root": "dist/assets/images/1418881895593.jpg",
+                "original": "dist/assets/images/original_1418881895593.jpg",
                 "aspectRatio": "1.25",
                 "order": 0,
                 "caption": ""
@@ -232,9 +232,9 @@ exports.projects = [
         "template": "gallery",
         "images": [
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1418882166559.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1418882166559.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1418882166559.jpg",
+                "thumb": "dist/assets/images/thumb_1418882166559.jpg",
+                "_root": "dist/assets/images/1418882166559.jpg",
+                "original": "dist/assets/images/original_1418882166559.jpg",
                 "aspectRatio": "1.25",
                 "order": 0,
                 "caption": ""
@@ -249,9 +249,9 @@ exports.projects = [
         "template": "gallery",
         "images": [
             {
-                "thumb": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/thumb_1418882372208.jpg",
-                "_root": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/1418882372208.jpg",
-                "original": "http://7c300f857a377bbf1d42-6cd92f7b64b14169fba5ecb7f32c86f9.r97.cf1.rackcdn.com/original_1418882372208.jpg",
+                "thumb": "dist/assets/images/thumb_1418882372208.jpg",
+                "_root": "dist/assets/images/1418882372208.jpg",
+                "original": "dist/assets/images/original_1418882372208.jpg",
                 "aspectRatio": "1.25",
                 "order": 0,
                 "caption": ""
