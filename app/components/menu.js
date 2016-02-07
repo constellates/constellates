@@ -52,7 +52,7 @@ export default class Menu extends React.Component {
                         <Link to="about">about</Link>
                     </div>
                     <div>
-                        <Link to="contact">contact</Link>
+                        <a href="http://blog.constellates.com">blog</a>
                     </div>
                 </nav>
             </nav>
