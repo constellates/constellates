@@ -6,6 +6,7 @@ $lightBlue: #BEC8CF;
 @import 'utils.scss';
 @import 'menu.scss';
 @import '../components/project-templates/gallery.scss';
+@import '../components/project-templates/video.scss';
 
 
 body {
@@ -76,6 +77,14 @@ body {
 
 .menu-link.disabled {background: #EEE;}
 
+.menu-link-background {
+    position: fixed;
+    height: 60px;
+    background: rgba(255,255,255,0.7);
+    width: 100%;
+    bottom:0px;
+}
+
 .about {
     padding: 30px;
     font-size: 40px;
@@ -85,4 +94,10 @@ body {
         color: #666;
         text-decoration: none;
     }
+}
+
+.blurb {
+    padding: 15px;
+    font-size: 20px;
+    color: #666;
 }

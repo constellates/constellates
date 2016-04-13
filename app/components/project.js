@@ -50,6 +50,7 @@ export default class Project extends mixin(State) {
         return (
             <div>
                 {template}
+                <div className="menu-link-background"></div>
                 <div className="project-description"><div>{project.title}</div></div>
             </div>
         );

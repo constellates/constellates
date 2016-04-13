@@ -12,7 +12,8 @@ exports.projects = [
                 "caption": "undefined"
             }
         ],
-        "vimeoId": "134375555"
+        "vimeoId": "134375555",
+        "blurb": "A laser printer is setup to automatically print anything sent to an email address. A web cam then displays the outfeed tray in real time. (temporary installation)"
     },
     {
         "url": "linear-perspective",
