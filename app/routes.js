@@ -4,6 +4,7 @@ import Menu    from './components/menu';
 import Contact from './components/contact';
 import About   from './components/about';
 import Project from './components/project';
+import Music from './components/music';
 import {
   Route,
   DefaultRoute,
@@ -24,6 +25,7 @@ export default (
 		<Route name="contact" handler={Contact} />
 		<Route name="about"   handler={About}   />
 		<Route name="project" path="p/:projectId" handler={Project} />
+		<Route name="music"   handler={Music}   />
 		<DefaultRoute         handler={Menu}    />
 		<NotFoundRoute        handler={Menu}    />
 	</Route>
