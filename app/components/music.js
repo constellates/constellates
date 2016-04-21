@@ -30,18 +30,20 @@ export default class Contact extends React.Component {
             };
             this._embedUrl(embedOptions);
     		return (
-    			<iframe
-                    key={song.uri}
-                    width="100%"
-                    height="166"
-                    scrolling="no"
-                    frameBorder="no"
-                    src={this._embedUrl(embedOptions)}>
-                </iframe>
-    		)
+                <div className="song">
+        			<iframe
+                        key={song.uri}
+                        width="100%"
+                        height="166"
+                        scrolling="no"
+                        frameBorder="no"
+                        src={this._embedUrl(embedOptions)}>
+                    </iframe>
+                </div>
+    		);
     	});
         return (
-        	<div className="about">
+        	<div className="music">
 	            {songs}
 	        </div>
         );
