@@ -54,6 +54,10 @@ export default class Menu extends React.Component {
                     <div>
                         <a href="http://blog.constellates.com">blog</a>
                     </div>
+                    <div>
+                        <Link to="music">music</Link>
+                    </div>
+
                 </nav>
             </nav>
         );
